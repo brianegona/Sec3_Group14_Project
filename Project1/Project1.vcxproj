@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="addAppointment.c" />
+    <ClCompile Include="deleteAppointment.c" />
+    <ClCompile Include="displaySingleappointment.c" />
+    <ClCompile Include="updateAppointment.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addAppointment.h" />
+    <ClInclude Include="deleteAppointment.h" />
+    <ClInclude Include="displaySingleappointment.h" />
+    <ClInclude Include="updateAppointment.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
