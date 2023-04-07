@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="displayDoctorsdiagnostics.c" />
+    <ClCompile Include="displayDoctorsappointmentHistory.c" />
+    <ClCompile Include="exitAppointmentmanager.c" />
+    <ClCompile Include="printAppointmentmenu.c" />
     <ClCompile Include="Source.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appointmentManager.h" />
+    <ClInclude Include="displayDoctorsdiagnostics.h" />
+    <ClInclude Include="displayDoctorsappointmentHistory.h" />
+    <ClInclude Include="exitAppointmentmanager.h" />
+    <ClInclude Include="printAppointmentmenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
