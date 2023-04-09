@@ -30,6 +30,27 @@
     <ClCompile Include="displayDoctorsappointmentHistory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="copyfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displaySingleappointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displayAllappointments.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="updateAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Searchforanappointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="displayDoctorsdiagnostics.h">
@@ -45,6 +66,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="appointmentManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="copyfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displaySingleappointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="updateAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displayAllappointments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Searchforanappointment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
