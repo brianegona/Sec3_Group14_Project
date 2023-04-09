@@ -18,9 +18,11 @@
 #include "copyFile.h"
 
 //REQ-SYS-001 – Our general project has 4 independent modules 
+int size = sizeof(APPOINTMENT);
 
 int main(int argc, char* argv[])    //REQ-SYS-020 – The main was written as int main(int argc, char *argv) 
 {
+   
 
     APPOINTMENT appointments[30];
 
@@ -44,7 +46,6 @@ int main(int argc, char* argv[])    //REQ-SYS-020 – The main was written as int 
 
     do {
 
-
         printf("Enter an option for the above list: ", option);
         scanf_s("%d", &option);
         // check for command line argument
@@ -53,7 +54,7 @@ int main(int argc, char* argv[])    //REQ-SYS-020 – The main was written as int 
         }
         else {
             printf("Usage: %s <option>\n", argv[0]);
-
+            
             switch (option) {
             case 1:
                 // add new appointment
@@ -89,7 +90,7 @@ int main(int argc, char* argv[])    //REQ-SYS-020 – The main was written as int 
                 break;
             case 9:
                 // exit program
-                copyFile(); //copyFile is called just before the progrm is exited
+                copyFile();//copyFile is called just before the progrm is exited
                 exitAppointmentmanager();
                 break;
             default:
