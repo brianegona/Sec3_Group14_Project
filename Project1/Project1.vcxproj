@@ -127,20 +127,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addAppointment.c" />
     <ClCompile Include="copyfile.c" />
+    <ClCompile Include="Searchforanappointment.c" />
+    <ClCompile Include="updateAppointment.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addAppointment.h" />
     <ClInclude Include="copyfile.h" />
+    <ClCompile Include="deleteAppointment.c" />
+    <ClCompile Include="displayAllappointments.c" />
     <ClCompile Include="displayDoctorsdiagnostics.c" />
     <ClCompile Include="displayDoctorsappointmentHistory.c" />
+    <ClCompile Include="displaySingleappointment.c" />
     <ClCompile Include="exitAppointmentmanager.c" />
     <ClCompile Include="printAppointmentmenu.c" />
     <ClCompile Include="Source.c" />
+    <ClInclude Include="displayAllappointments.h" />
+    <ClInclude Include="Searchforanappointment.h" />
+    <ClInclude Include="updateAppointment.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="appointmentManager.h" />
+    <ClInclude Include="deleteAppointment.h" />
     <ClInclude Include="displayDoctorsdiagnostics.h" />
     <ClInclude Include="displayDoctorsappointmentHistory.h" />
+    <ClInclude Include="displaySingleappointment.h" />
     <ClInclude Include="exitAppointmentmanager.h" />
     <ClInclude Include="printAppointmentmenu.h" />
   </ItemGroup>
